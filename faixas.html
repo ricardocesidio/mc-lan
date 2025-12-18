@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>FAIXAS | V3NOM - MC LAN</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="shortcut icon" href="images/icons.png" type="image/x-icon">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript>
+    <link rel="stylesheet" href="assets/css/noscript.css" />
+  </noscript>
+  <style>
+    /* Estilos para a Tracklist */
+    .tracklist-container { text-align: left; margin: 2rem 0; }
+    .tracklist-container ol { display: inline-block; text-align: left; list-style-position: inside; }
+    .tracklist-container li { margin-bottom: 0.7rem; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 5px; font-weight: bold; }
+    .feat-text { color: #888; font-size: 0.85em; font-style: italic; font-weight: normal; }
+
+    /* Efeito de Escurecer o Fundo */
+    #escurecer-fundo {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.85);
+        z-index: 1; 
+        opacity: 0;
+        transition: opacity 0.8s ease;
+        pointer-events: none;
+    }
+    body.is-scrolled #escurecer-fundo { opacity: 1; }
+    
+    /* Garante que o conteúdo e menus fiquem acima do fundo escuro */
+    #wrapper { position: relative; z-index: 2; }
+    #header, #nav { z-index: 10; }
+  </style>
+</head>
+<body class="is-preload">
+
+  <!-- Camada para escurecer no scroll -->
+  <div id="escurecer-fundo"></div>
+
+  <!-- Wrapper -->
+  <div id="wrapper" class="fade-in">
+
+    <!-- Intro -->
+    <section id="intro">
+      <h1>V3NOM</h1>
+      <ul class="actions">
+        <li>
+          <a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Header -->
+    <header id="header">
+      <a href="#intro" class="logo scrolly">VOLTAR AO TOPO</a>
+    </header>
+
+    <!-- Navigation -->
+    <nav id="nav">
+      <ul class="links">
+        <li><a href="index.html">INICIO</a></li>
+        <li class="active"><a href="faixas.html">FAIXAS</a></li>
+      </ul>
+
+      <ul class="icons">
+        <li><a href="x.com" class="icon brands fa-twitter" target="_blank"><span class="label">X</span></a></li>
+        <li><a href="https://open.spotify.com/album/2n7tTjN6PoCFv1x2LDAnuv" class="icon brands fa-spotify" target="_blank"><span class="label">Spotify</span></a></li>
+        <li><a href="www.instagram.com" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+        <li><a href="www.youtube.com" class="icon brands fa-youtube" target="_blank"><span class="label">YouTube</span></a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main">
+
+      <article class="post featured">
+        <header class="major">
+          <h2>V3NOM VOL. 1 - ECLIPSE<br />O Manifesto de Libertação</h2>
+          <p>
+            Mais do que apenas um álbum, <strong>V3NOM</strong> é um manifesto de libertação artística e autenticidade. 
+            Ao longo de 15 faixas, Lan funde a crueza da rua com o peso de guitarras distorcidas e a energia de um 
+            projeto que desafia a indústria para finalmente entregar o que sempre quis fazer.
+          </p>
+        </header>
+
+        <a class="image main">
+          <img src="images/faixapic.jpeg" alt="V3NOM Tracklist" />
+        </a>
+
+        <h3>Tracklist Oficial</h3>
+        <div class="tracklist-container">
+            <ol>
+                <li>ROBOCOP <span class="feat-text">(feat. Criolo & John Dolmayan)</span></li>
+                <li>SCORPION <span class="feat-text">(feat. Twin Pumpkin)</span></li>
+                <li>ØZ <span class="feat-text">(feat. Ra Díaz)</span></li>
+                <li>DARTH VADER</li>
+                <li>V DE VINGANÇA <span class="feat-text">(feat. Twin Pumpkin)</span></li>
+                <li>REDLASER</li>
+                <li>EVIL LONDRES</li>
+                <li>HIGHWAY</li>
+                <li>RUNAS</li>
+                <li>OPEN</li>
+                <li>4 MIL MINUTOS</li>
+                <li>ZATMENIE</li>
+                <li>DARK MATTER <span class="feat-text">(Bónus; feat. Bladee)</span></li>
+                <li>X LIGHT MATTER <span class="feat-text">(Bónus; feat. Pink Siifu)</span></li>
+                <li>ØPHELIAS II <span class="feat-text">(Bónus; feat. Bladee)</span></li>
+            </ol>
+        </div>
+
+        <p>
+            O projeto explora sonoridades de <strong>Hard Hock, Heavy Metal e Nu Metal</strong>, incluindo colaborações 
+            com músicos internacionais como <strong>John Dolmayan (System of a Down)</strong> e <strong>Ra Díaz (Korn)</strong>.
+            "V3NOM Vol. 1 - Eclipse redefine o cenário do Metal Alternativo brasileiro em 2025. Unindo lendas mundiais e a vanguarda urbana, MC Lan entrega a obra que sempre desejou: crua, orgânica e absolutamente livre. A jornada sonora termina aqui, mas o impacto será eterno."
+        </p>
+
+        <ul class="actions special">
+          <li><a href="https://open.spotify.com/album/2n7tTjN6PoCFv1x2LDAnuv" class="button large" target="_blank">Escutar no Spotify</a></li>
+          <li><a href="https://youtu.be/lkQL8CAwMdo?si=ToRvZIZ0zhkZE72-" class="button large" target="_blank">Assistir no YouTube</a></li>
+        </ul>
+
+      </article>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="copyright">
+      <p>&copy; 2025 MC LAN. Design inspirado em <a href="https://html5up.net">HTML5 UP</a>.</p>
+    </footer>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
