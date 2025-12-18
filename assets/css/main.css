@@ -2210,17 +2210,17 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 		display: none;
 	}
 
-	#wrapper > .bg {
-		 background-size: 80% auto !important; 
-         background-position: center center !important;
-         background-repeat: no-repeat !important;
-}
-@media screen and (max-width: 736px) {
+	@media screen and (max-width: 736px) {
     #wrapper > .bg {
-        background-size: 100% auto !important;
+        background-attachment: scroll !important;
+        background-size: cover !important;
+        background-position: center center !important;
+        display: block !important;
+        visibility: visible !important;
     }
 }
-	}
+}
+	
 
 	#main {
 		width: 100%;
